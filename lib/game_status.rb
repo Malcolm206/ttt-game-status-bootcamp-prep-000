@@ -39,6 +39,7 @@ end
 
 def winner(board)
   winning = won?(board)
+  board = board
   if board(winning[0]) == "X"
     puts "X"
   elsif board(winning[0]) == "O"
