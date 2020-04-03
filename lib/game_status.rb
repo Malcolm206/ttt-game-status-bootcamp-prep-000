@@ -47,4 +47,3 @@ def winner(board)
     puts nil
   end
 end
-
