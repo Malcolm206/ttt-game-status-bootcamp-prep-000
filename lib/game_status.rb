@@ -39,11 +39,11 @@ end
 
 def winner(board)
   winning = won?(board)
-  if winning == []
-    puts nil
-  elsif "#{board[winning[0]]}" == "X"
+  if "#{board[winning[0]]}" == "X"
     puts "X"
   elsif "#{board[winning[0]]}" == "O"
     puts "O"
+  else
+    puts nil
   end
 end
