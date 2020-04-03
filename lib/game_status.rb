@@ -40,7 +40,7 @@ end
 def winner(board)
   win = won?(board)[0]
   if won?(board) == false
-    puts false
+    puts nil
   elsif board[win] == "X" || board[win] == "O"
     board[win]
   end
