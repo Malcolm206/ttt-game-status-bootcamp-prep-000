@@ -45,3 +45,5 @@ def winner(board)
     puts "X"
   elsif board[winning[0]] == "O"
     puts "O"
+  end
+end
